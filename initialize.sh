@@ -42,6 +42,9 @@ gsettings set org.gnome.desktop.default-applications.terminal exec gnome-termina
 gsettings set org.gnome.desktop.default-applications.terminal exec-arg ''
 sudo apt-get purge pantheon-terminal
 
+# install chromium browser
+sudo apt-get install chromium-browser
+
 # install node + npm
 sudo apt-get install nodejs
 sudo apt-get install npm
