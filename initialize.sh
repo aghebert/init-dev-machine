@@ -22,6 +22,7 @@ sudo add-apt-repository ppa:philip.scott/elementary-tweaks && sudo apt-get updat
 sudo apt-get install elementary-tweaks
 
 # Install OSX-ARC Themes
+sudo apt-get install gdebi
 mkdir ~/temp
 cd ~/temp
 sudo wget https://github.com/LinxGem33/OSX-Arc-Darker/releases/download/v1.4.3/osx-arc-collection_1.4.3_amd64.deb
