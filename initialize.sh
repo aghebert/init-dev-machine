@@ -43,6 +43,13 @@ gsettings set org.gnome.desktop.default-applications.terminal exec gnome-termina
 gsettings set org.gnome.desktop.default-applications.terminal exec-arg ''
 sudo apt-get purge pantheon-terminal
 
+# install atom text editor
+mkdir ~/temp
+cd ~/temp
+sudo wget https://github.com/atom/atom/releases/download/v1.21.1/atom-amd64.deb
+sudo gdebi atom-amd64.deb
+cd rm -rf ~/temp
+
 # install chromium browser
 sudo apt-get install chromium-browser
 
