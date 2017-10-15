@@ -42,6 +42,8 @@ sudo sed -i -e 's/OnlyShowIn=Unity/#OnlyShowIn=Unity/g' /usr/share/applications/
 gsettings set org.gnome.desktop.default-applications.terminal exec gnome-terminal
 gsettings set org.gnome.desktop.default-applications.terminal exec-arg ''
 sudo apt-get purge pantheon-terminal
+sudo apt-get install dconf-cli
+wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh
 
 # install atom text editor
 mkdir ~/temp
